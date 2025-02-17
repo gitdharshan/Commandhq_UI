@@ -1,0 +1,59 @@
+.teacher-module {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.session-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.session-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.session-input button {
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.session-list {
+  list-style: none;
+  padding: 0;
+}
+
+.session-item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
